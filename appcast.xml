@@ -2,3 +2,15 @@
   xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"><channel><title>debut 
   Updates</title><link>https://debut.sh</link><description>Most recent 
   updates</description><language>en</language></channel></rss>
+    <item>
+      <title>Version 1.0.1</title>
+      <pubDate>Thu, 04 Dec 2025 22:40:13 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/debut-sh/releases/releases/download/v1.0.1/ScreenRecorderMVP-1.0.1.dmg"
+        sparkle:edSignature="jjqk3FlYxRYjeLQVthw8thnc8CqSRwWfLhiIR0HosAEus+bq/Q6FY05ujT6B22d+HKZd5sQRUgn9VZQTT54WAQ=="
+        length="3697352"
+        type="application/octet-stream"/>
+    </item>
