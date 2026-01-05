@@ -6,15 +6,15 @@
     <description>Most recent updates to debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.5.4</title>
-      <pubDate>Sun, 04 Jan 2026 23:09:07 +0000</pubDate>
-      <sparkle:version>12</sparkle:version>
-      <sparkle:shortVersionString>1.5.4</sparkle:shortVersionString>
+      <title>Version 1.6.0</title>
+      <pubDate>Mon, 05 Jan 2026 10:42:43 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.5.4/Debut-1.5.4.dmg"
-        sparkle:edSignature="HgF2q766Wzbnf2GmEG83RgvKS0zmnniUQcfWiC7L+deb4kauQuCebVefVG/k/iF/9XzKmuPSNWmFtvhWk8hkBQ=="
-        length="5524383"
+        url="https://github.com/debut-sh/releases/releases/download/v1.6.0/Debut-1.6.0.dmg"
+        sparkle:edSignature="Ub6HIDaEfJ7c1+AD6DLcFbkZqSWWnFEX4LMCdZ89GAaYaXLW0qz+88b8vXqYtH68OdrUi7TNYxfs43kWQe3SCg=="
+        length="7010395"
         type="application/octet-stream"/>
     </item>
   </channel>
