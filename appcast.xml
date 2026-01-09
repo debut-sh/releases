@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>debut Updates</title>
+    <title>Debut Updates</title>
     <link>https://debut.sh</link>
-    <description>Most recent updates to debut</description>
+    <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.8.0</title>
-      <pubDate>Thu, 08 Jan 2026 13:03:28 +0000</pubDate>
-      <sparkle:version>25</sparkle:version>
-      <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
+      <title>Version 1.9.0</title>
+      <description><![CDATA[
+<p>Release 1.9.0</p>
+      ]]></description>
+      <pubDate>Fri, 09 Jan 2026 01:25:15 +0000</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>1.9.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.8.0/Debut-1.8.0.dmg"
-        sparkle:edSignature="SIYWzfAgz49IL0Q4DiAp7Cdj3jCDHEgl/v4iMBbyUZfaDskPA1FYmSnDAfkSqhwS8t1mghFtZfyixR0DDPkNCg=="
-        length="8118038"
+        url="https://github.com/debut-sh/releases/releases/download/v1.9.0/Debut-1.9.0.dmg"
+        sparkle:edSignature="dfnyRvgEdCCdN/RCzq2ZLUL9P16T/3nFRHYMbdMUWjO83xfPpJ395q9Pve53/XFheFYpORxTV0WnTea6kV18AQ=="
+        length="8503322"
         type="application/octet-stream"/>
     </item>
   </channel>
