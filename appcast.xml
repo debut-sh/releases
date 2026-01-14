@@ -6,27 +6,31 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.19.0</title>
+      <title>Version 1.19.1</title>
       <description><![CDATA[
 <h3>New</h3>
 <ul>
-<li>Feedback button</li>
-<li>Click to select windows</li>
+<li>Multi-display window selector</li>
 </ul>
 
 <h3>Improved</h3>
 <ul>
-<li>Support for high resolution external monitors</li>
+<li>Cursor tracking on different displays</li>
+</ul>
+
+<h3>Fixed</h3>
+<ul>
+<li>Crashing due to timeline miscalculations or video recording stoppage</li>
 </ul>
       ]]></description>
-      <pubDate>Wed, 14 Jan 2026 22:28:53 +0000</pubDate>
-      <sparkle:version>51</sparkle:version>
-      <sparkle:shortVersionString>1.19.0</sparkle:shortVersionString>
+      <pubDate>Wed, 14 Jan 2026 23:01:54 +0000</pubDate>
+      <sparkle:version>52</sparkle:version>
+      <sparkle:shortVersionString>1.19.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.19.0/Debut-1.19.0.dmg"
-        sparkle:edSignature="8tn+GpkEcf4z5e5obHM72lsbaAmZhjdw1krfFeh0MQaGJKPnHmRPo+1H1fkbuOvI93q30ye9jkUnX68ncBjtCA=="
-        length="11734915"
+        url="https://github.com/debut-sh/releases/releases/download/v1.19.1/Debut-1.19.1.dmg"
+        sparkle:edSignature="rf7Eo35kdkoht1k0QxL2cqDU/nADKKGWViSXy3TuB1P+ZyrdV0fta8MPO8M7uJE1dMkfldouxoEai+l6N3CBCg=="
+        length="11747163"
         type="application/octet-stream"/>
     </item>
   </channel>
