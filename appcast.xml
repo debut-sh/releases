@@ -6,43 +6,18 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.18.1</title>
+      <title>Version 1.17.1</title>
       <description><![CDATA[
-Debut V1.18.0 is now out! It brings support for
-
-<h3>New</h3>
-<ul>
-<li>Screenshot support</li>
-<li>Permissions tab in settings</li>
-<li>On-device audio-transcription</li>
-<li>Support for recording a specific display</li>
-<li>Release notes!</li>
-</ul>
-
-<h3>Improved</h3>
-<ul>
-<li>One-click menu bar to stop recording</li>
-<li>Allow multi-selecting timeline items</li>
-<li>Improved cursor designs</li>
-<li>Permission UI shown when update causes missing permissions</li>
-<li>Match export name to recorded video name</li>
-<li>Updated spacing in sidebar inspector card elements</li>
-</ul>
-
-<h3>Fixed</h3>
-<ul>
-<li>Text editing CMD+ controls for license entry</li>
-<li>Prevent inadvertent blurring on final export when cursor is stationary</li>
-</ul>
+<p>Release 1.17.1</p>
       ]]></description>
-      <pubDate>Wed, 14 Jan 2026 00:28:45 +0000</pubDate>
-      <sparkle:version>48</sparkle:version>
-      <sparkle:shortVersionString>1.18.1</sparkle:shortVersionString>
+      <pubDate>Mon, 12 Jan 2026 20:16:41 +0000</pubDate>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:shortVersionString>1.17.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.18.1/Debut-1.18.1.dmg"
-        sparkle:edSignature="NVgIQSz8EBlzIkVceZALS/4b1fRvTLQQhyx0Ovuu4easJV1+/6GbgROXUIIB3VR84e7LbLq0qRIJ/NOazVjsDg=="
-        length="11368240"
+        url="https://github.com/debut-sh/releases/releases/download/v1.17.1/Debut-1.17.1.dmg"
+        sparkle:edSignature="Jotohzt2eXNJ06mc6ZE6rMzDS8qk/RnUiuNaEt3aHtdi676QIOb+p7+55iLaYOp1J8HPGLXTv3UNFBKvaSXaAw=="
+        length="10711441"
         type="application/octet-stream"/>
     </item>
   </channel>
