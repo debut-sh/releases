@@ -6,41 +6,27 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.18.3</title>
+      <title>Version 1.19.0</title>
       <description><![CDATA[
 <h3>New</h3>
 <ul>
-<li>Screenshot support</li>
-<li>Permissions tab in settings</li>
-<li>On-device audio-transcription</li>
-<li>Support for recording a specific display</li>
+<li>Feedback button</li>
+<li>Click to select windows</li>
 </ul>
 
 <h3>Improved</h3>
 <ul>
-<li>One-click menu bar to stop recording</li>
-<li>Allow multi-selecting timeline items</li>
-<li>Improved cursor designs</li>
-<li>Permission UI shown when update causes missing permissions</li>
-<li>Match export name to recorded video name</li>
-<li>Updated spacing in sidebar inspector card elements</li>
-</ul>
-
-<h3>Fixed</h3>
-<ul>
-<li>Text editing CMD+ controls for license entry</li>
-<li>Prevent inadvertent blurring on final export when cursor is stationary</li>
-<li>SVG bundling</li>
+<li>Support for high resolution external monitors</li>
 </ul>
       ]]></description>
-      <pubDate>Wed, 14 Jan 2026 01:47:39 +0000</pubDate>
-      <sparkle:version>50</sparkle:version>
-      <sparkle:shortVersionString>1.18.3</sparkle:shortVersionString>
+      <pubDate>Wed, 14 Jan 2026 22:28:53 +0000</pubDate>
+      <sparkle:version>51</sparkle:version>
+      <sparkle:shortVersionString>1.19.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.18.3/Debut-1.18.3.dmg"
-        sparkle:edSignature="0VHNqzhb94uN+xZ6OFSrtVfHGnQIRtK2aesyda/EadSyczSuoLuIYE2gpCgDsUYDpv0ZTmycJycwbMyq/rZeAg=="
-        length="11414636"
+        url="https://github.com/debut-sh/releases/releases/download/v1.19.0/Debut-1.19.0.dmg"
+        sparkle:edSignature="8tn+GpkEcf4z5e5obHM72lsbaAmZhjdw1krfFeh0MQaGJKPnHmRPo+1H1fkbuOvI93q30ye9jkUnX68ncBjtCA=="
+        length="11734915"
         type="application/octet-stream"/>
     </item>
   </channel>
