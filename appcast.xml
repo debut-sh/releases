@@ -6,27 +6,21 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.20.0</title>
+      <title>Version 1.20.1</title>
       <description><![CDATA[
-<h3>New</h3>
+<h3>Fixed</h3>
 <ul>
-<li>Watermark and image overlay support</li>
-</ul>
-
-<h2>Improved</h2>
-<ul>
-<li>Zoom keyframes adjusting when duration changes</li>
-<li>Export format improvements</li>
+<li>Fixed issue causing export failure on project rename</li>
 </ul>
       ]]></description>
-      <pubDate>Thu, 15 Jan 2026 14:15:38 +0000</pubDate>
-      <sparkle:version>56</sparkle:version>
-      <sparkle:shortVersionString>1.20.0</sparkle:shortVersionString>
+      <pubDate>Thu, 15 Jan 2026 22:55:25 +0000</pubDate>
+      <sparkle:version>57</sparkle:version>
+      <sparkle:shortVersionString>1.20.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.20.0/Debut-1.20.0.dmg"
-        sparkle:edSignature="aF6yTTKFRHF6zZNBdpJIuUev7f/WiigkafP42gyPA9CIcGwkkoU6l0p90JifK29PPbXn9E5rTFHzZcyyUGUcDQ=="
-        length="12333741"
+        url="https://github.com/debut-sh/releases/releases/download/v1.20.1/Debut-1.20.1.dmg"
+        sparkle:edSignature="L4ApDRVeZfFmM8FW7lr4diilGnTJf1vdIo/YDhhtqIKCX+S+2DJTJmtyffs4stLWnl7VoXpqS1nGAR1UnrjYDw=="
+        length="12383743"
         type="application/octet-stream"/>
     </item>
   </channel>
