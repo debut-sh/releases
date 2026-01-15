@@ -6,22 +6,29 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.19.2</title>
+      <title>Version 1.19.4</title>
       <description><![CDATA[
 <h3>Improved</h3>
 <ul>
-<li>Better multi-display support</li>
-<li>Improved licensing activation system</li>
+<li>Support for high resolution monitors with updated video codec</li>
+<li>Window enumerator to support recording hidden game windows</li>
+<li>Support for customisable menu bar keyboard shortcuts</li>
+</ul>
+
+<h3>Fixed</h3>
+<ul>
+<li>Bug when deleting the last remaining clip for a recorded video</li>
+<li>Cursor position tracking in region-based recording mode</li>
 </ul>
       ]]></description>
-      <pubDate>Thu, 15 Jan 2026 00:20:58 +0000</pubDate>
-      <sparkle:version>53</sparkle:version>
-      <sparkle:shortVersionString>1.19.2</sparkle:shortVersionString>
+      <pubDate>Thu, 15 Jan 2026 13:08:18 +0000</pubDate>
+      <sparkle:version>55</sparkle:version>
+      <sparkle:shortVersionString>1.19.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.19.2/Debut-1.19.2.dmg"
-        sparkle:edSignature="hmcOMLrW6AttdlNAV7Tm3zshGRIy/vZDYXtxvX4foa4/73BwlL6mJy60Hsfw7dFLBIruYA0+3mx6JObbisVOAw=="
-        length="11759328"
+        url="https://github.com/debut-sh/releases/releases/download/v1.19.4/Debut-1.19.4.dmg"
+        sparkle:edSignature="Ak6FS3pLNb459VBg2rNPuobs0cNGBpsmreLzlimBetsE7o4XheAW2ITVu+LO1KaYC1NkIZpCg/NkAZPMwnLyCA=="
+        length="11842516"
         type="application/octet-stream"/>
     </item>
   </channel>
