@@ -6,22 +6,28 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.20.2</title>
+      <title>Version 1.21.0</title>
       <description><![CDATA[
-<h3>Fixed</h3>
+<h3>New</h3>
 <ul>
-<li>Fix issue with exporting videos without audio</li>
-<li>Fix issue with resolution and video size trimming due to prime numbers</li>
+<li>Automatic dynamic bitrate support (finally) - support for recording high frame rates and high resolution automatically</li>
+</ul>
+
+<h3>Improved</h3>
+<ul>
+<li>Major responsiveness improvements for the timeline</li>
+<li>Export video types validation</li>
+<li>Automatic migration from legacy video codecs</li>
 </ul>
       ]]></description>
-      <pubDate>Fri, 16 Jan 2026 00:21:09 +0000</pubDate>
-      <sparkle:version>58</sparkle:version>
-      <sparkle:shortVersionString>1.20.2</sparkle:shortVersionString>
+      <pubDate>Fri, 16 Jan 2026 02:34:19 +0000</pubDate>
+      <sparkle:version>59</sparkle:version>
+      <sparkle:shortVersionString>1.21.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.20.2/Debut-1.20.2.dmg"
-        sparkle:edSignature="i35D6gvNT979G+XIFmhnaAXUS9L9KimDYm22sFWJLNqNObSbV+R+fW/p0C+Kvyqr+GEp4eOUrInHA7XAG/uTAg=="
-        length="12403474"
+        url="https://github.com/debut-sh/releases/releases/download/v1.21.0/Debut-1.21.0.dmg"
+        sparkle:edSignature="UlFFIjU7jF92XFtdLqWhChZwccDMQgV0Rf3E9O15gDuVJSZuF30FdQxBXjGE+niek+f+y3bC334m1PAQSj5ODw=="
+        length="12414788"
         type="application/octet-stream"/>
     </item>
   </channel>
