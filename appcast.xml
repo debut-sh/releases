@@ -6,28 +6,31 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.21.0</title>
+      <title>Version 1.22.0</title>
       <description><![CDATA[
 <h3>New</h3>
-<ul>
-<li>Automatic dynamic bitrate support (finally) - support for recording high frame rates and high resolution automatically</li>
-</ul>
+  - Device frames - Add device bezels (iPhone, MacBook, etc.) around your recordings with auto-detection of device type and automatic video placement
+  - Recording region overlay - Pulsing red outline shows the area being recorded while capturing
+  - Pause/play during recording - Pause and resume your screen recording mid-capture
+  - Click animations in export - Visual click indicators appear in your final video
+  - Optional mode for zooms - New zoom behavior option
 
-<h3>Improved</h3>
-<ul>
-<li>Major responsiveness improvements for the timeline</li>
-<li>Export video types validation</li>
-<li>Automatic migration from legacy video codecs</li>
-</ul>
+ ###  Improved
+  - Zoom editor/viewer - Enhanced interface for editing and viewing zooms
+  - Device frame rendering - Better shadow effects, precise sizing, and cached bezel loading for performance
+  - Window picker - Simplified to visual picker only (removed grid mode)
+
+ ### Fixed
+  - Cursor no longer tracked when clicking the recording overlay
       ]]></description>
-      <pubDate>Fri, 16 Jan 2026 02:34:19 +0000</pubDate>
-      <sparkle:version>59</sparkle:version>
-      <sparkle:shortVersionString>1.21.0</sparkle:shortVersionString>
+      <pubDate>Sun, 18 Jan 2026 00:47:10 +0000</pubDate>
+      <sparkle:version>60</sparkle:version>
+      <sparkle:shortVersionString>1.22.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.21.0/Debut-1.21.0.dmg"
-        sparkle:edSignature="UlFFIjU7jF92XFtdLqWhChZwccDMQgV0Rf3E9O15gDuVJSZuF30FdQxBXjGE+niek+f+y3bC334m1PAQSj5ODw=="
-        length="12414788"
+        url="https://github.com/debut-sh/releases/releases/download/v1.22.0/Debut-1.22.0.dmg"
+        sparkle:edSignature="qkfZavYlx23y48CI2hQFrM0XwhbR7JLVYYpQdjEzKWZFFJzH7XYoKVuJ/OW6vC4SOES7Lm1jiFsztQ1dcDgeCQ=="
+        length="12464689"
         type="application/octet-stream"/>
     </item>
   </channel>
