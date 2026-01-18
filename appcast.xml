@@ -6,7 +6,7 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.22.0</title>
+      <title>Version 1.22.1</title>
       <description><![CDATA[
 <h3>New</h3>
   - Device frames - Add device bezels (iPhone, MacBook, etc.) around your recordings with auto-detection of device type and automatic video placement
@@ -15,22 +15,23 @@
   - Click animations in export - Visual click indicators appear in your final video
   - Optional mode for zooms - New zoom behavior option
 
- ###  Improved
+<h3>Improved</h3>
   - Zoom editor/viewer - Enhanced interface for editing and viewing zooms
   - Device frame rendering - Better shadow effects, precise sizing, and cached bezel loading for performance
   - Window picker - Simplified to visual picker only (removed grid mode)
 
- ### Fixed
+<h3>Fixed</h3>
   - Cursor no longer tracked when clicking the recording overlay
+  - Hotfix to include new device frames
       ]]></description>
-      <pubDate>Sun, 18 Jan 2026 00:47:10 +0000</pubDate>
-      <sparkle:version>60</sparkle:version>
-      <sparkle:shortVersionString>1.22.0</sparkle:shortVersionString>
+      <pubDate>Sun, 18 Jan 2026 01:46:25 +0000</pubDate>
+      <sparkle:version>61</sparkle:version>
+      <sparkle:shortVersionString>1.22.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.22.0/Debut-1.22.0.dmg"
-        sparkle:edSignature="qkfZavYlx23y48CI2hQFrM0XwhbR7JLVYYpQdjEzKWZFFJzH7XYoKVuJ/OW6vC4SOES7Lm1jiFsztQ1dcDgeCQ=="
-        length="12464689"
+        url="https://github.com/debut-sh/releases/releases/download/v1.22.1/Debut-1.22.1.dmg"
+        sparkle:edSignature="Xktu84xPuoT6MRvGp24ZX8nhHCe5wReO5ekegtTQVqbOs7BUUhOQJrKwxnVfaSgDBiig9rq8lMdIR2ha4gfpCw=="
+        length="12473914"
         type="application/octet-stream"/>
     </item>
   </channel>
