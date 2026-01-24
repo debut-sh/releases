@@ -6,32 +6,42 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.22.3</title>
+      <title>Version 1.23.0</title>
       <description><![CDATA[
 <h3>New</h3>
-  - Device frames - Add device bezels (iPhone, MacBook, etc.) around your recordings with auto-detection of device type and automatic video placement
-  - Recording region overlay - Pulsing red outline shows the area being recorded while capturing
-  - Pause/play during recording - Pause and resume your screen recording mid-capture
-  - Click animations in export - Visual click indicators appear in your final video
-  - Optional mode for zooms - New zoom behavior option
+<ul>
+<li>Auto-generate background colors from recording content</li>
+<li>Copy exported video directly to clipboard</li>
+<li>Support for landscape device frames with bezel rotation</li>
+<li>Multi-display region recording</li>
+</ul>
 
 <h3>Improved</h3>
-  - Zoom editor/viewer - Enhanced interface for editing and viewing zooms
-  - Device frame rendering - Better shadow effects, precise sizing, and cached bezel loading for performance
-  - Window picker - Simplified to visual picker only (removed grid mode)
+<ul>
+<li>Configurable export frame rates (24, 30, 60 FPS)</li>
+<li>Redesigned recording overlay with compact, always-visible control bar</li>
+<li>Customizable zoom speeds per individual zoom</li>
+<li>Hover effects on control bar buttons</li>
+<li>Aspect ratio constraining during selection and resizing</li>
+<li>Hide display capture option when only one monitor is present</li>
+<li>Faster release builds</li>
+</ul>
 
 <h3>Fixed</h3>
-  - Cursor no longer tracked when clicking the recording overlay
-  - Hotfix to include new device frames
+<ul>
+<li>Session persistence not retaining edits on old recordings</li>
+<li>Desktop icons no longer hidden when starting window recording</li>
+<li>Zoom timing now adjusts properly when extending zoom duration</li>
+</ul>
       ]]></description>
-      <pubDate>Sun, 18 Jan 2026 20:36:30 +0000</pubDate>
-      <sparkle:version>63</sparkle:version>
-      <sparkle:shortVersionString>1.22.3</sparkle:shortVersionString>
+      <pubDate>Sat, 24 Jan 2026 11:13:38 +0000</pubDate>
+      <sparkle:version>64</sparkle:version>
+      <sparkle:shortVersionString>1.23.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.22.3/Debut-1.22.3.dmg"
-        sparkle:edSignature="E7st5UKpOmQrY8XOHp/kEFheZKgJanYC2RKBhAjDnXwfHJoOaBU8n4/dGfCqxMAodREqj7/Ya/5K5tacT0WEBg=="
-        length="28873418"
+        url="https://github.com/debut-sh/releases/releases/download/v1.23.0/Debut-1.23.0.dmg"
+        sparkle:edSignature="pnEv2cIw/nQY6FqtKTHaSh3naqBCeF2h0GzTHjlekkhSWUqkduufq2GgmQYc+0yeytwv9uVhzJN0oPUN97z6CQ=="
+        length="28379534"
         type="application/octet-stream"/>
     </item>
   </channel>
