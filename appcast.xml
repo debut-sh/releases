@@ -8,16 +8,16 @@
     <item>
       <title>Version 1.26.0</title>
       <description><![CDATA[
-Notarisation!
+Release 1.26.0
       ]]></description>
-      <pubDate>Wed, 12 Feb 2026 10:47:00 +0000</pubDate>
-      <sparkle:version>332</sparkle:version>
+      <pubDate>Thu, 12 Feb 2026 10:57:03 +0000</pubDate>
+      <sparkle:version>74</sparkle:version>
       <sparkle:shortVersionString>1.26.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/debut-sh/releases/releases/download/v1.26.0/Debut-1.26.0.dmg"
-        sparkle:edSignature="7i9u76PolRwpq82lmGCLZQYn0kmYGq5yxzrTAnmkuHxH/KBZywzExrPpb7X8g4S40KmMq0kwQpeTidegYfbDCw=="
-        length="25851009"
+        sparkle:edSignature="nuGws+slGyNPhoe5I2CKmTyq5EfcoeS0rAalTCpcQJwfGf/hYW0DfnJ7Ijh+qcpNKSrA2QtqFhS37nav4j2mDw=="
+        length="25392961"
         type="application/octet-stream"/>
     </item>
   </channel>
