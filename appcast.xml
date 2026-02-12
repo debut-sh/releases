@@ -6,35 +6,18 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.24.0</title>
+      <title>Version 1.26.0</title>
       <description><![CDATA[
-  ### New
-
-  - Image clips — add images as video clips for static overlays, outros, and more
-  - Keyboard press rendering — display key presses on screen during playback
-  - Cursor type detection — shows the correct macOS cursor (pointer, grab hand, text selector, etc.)
-  - Auto-hide cursor — cursor fades out when stationary for a period
-  - Glass border style
-
-  ### Improved
-
-  - Major export speed improvements with parallel frame processing and improved caching
-  - Zoom now applies only to video and shadow layers, keeping backgrounds static
-  - Refreshed UI with more colour and updated controls
-  - Migrated to Polar for license key management
-
-  ### Fixed
-
-  - Fixed render parallelisation lock issue
+Notarisation!
       ]]></description>
-      <pubDate>Mon, 09 Feb 2026 01:13:50 +0000</pubDate>
-      <sparkle:version>66</sparkle:version>
-      <sparkle:shortVersionString>1.24.0</sparkle:shortVersionString>
+      <pubDate>Wed, 12 Feb 2026 10:47:00 +0000</pubDate>
+      <sparkle:version>332</sparkle:version>
+      <sparkle:shortVersionString>1.26.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.24.0/Debut-1.24.0.dmg"
-        sparkle:edSignature="YrPZBbjL5EU+Udrn+Y51ZQ36b/yG9jPuuYLko+AKhhaZt1gfPiemDuyCHpR/1dTVmbWd7ns57DHQUte8SUaKBQ=="
-        length="29000980"
+        url="https://github.com/debut-sh/releases/releases/download/v1.26.0/Debut-1.26.0.dmg"
+        sparkle:edSignature="7i9u76PolRwpq82lmGCLZQYn0kmYGq5yxzrTAnmkuHxH/KBZywzExrPpb7X8g4S40KmMq0kwQpeTidegYfbDCw=="
+        length="25851009"
         type="application/octet-stream"/>
     </item>
   </channel>
