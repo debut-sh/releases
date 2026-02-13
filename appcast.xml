@@ -6,18 +6,38 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.26.0</title>
+      <title>Version 1.27.0</title>
       <description><![CDATA[
-Release 1.26.0
+New                                                                    
+                                                                         
+  - Video sharing platform — upload and share recordings directly from
+  the app via share.debut.sh (DEBUT-117)                                 
+  - Browser frame mockups — wrap recordings in Safari, Chrome, or generic
+   browser chrome for a polished look (DEBUT-130)
+  - Hide notifications during recording to keep captures clean
+  (DEBUT-146)
+
+  Improved
+
+  - Recording quality presets (Standard/High/Ultra) with configurable
+  bitrate options (DEBUT-97)
+  - Shared videos section in the dashboard for managing uploaded
+  recordings
+
+  Fixed
+
+  - Ensure render completes fully before sharing to prevent incomplete
+  uploads
+  - Release script improvements
       ]]></description>
-      <pubDate>Thu, 12 Feb 2026 10:57:03 +0000</pubDate>
-      <sparkle:version>74</sparkle:version>
-      <sparkle:shortVersionString>1.26.0</sparkle:shortVersionString>
+      <pubDate>Fri, 13 Feb 2026 11:45:52 +0000</pubDate>
+      <sparkle:version>343</sparkle:version>
+      <sparkle:shortVersionString>1.27.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.26.0/Debut-1.26.0.dmg"
-        sparkle:edSignature="nuGws+slGyNPhoe5I2CKmTyq5EfcoeS0rAalTCpcQJwfGf/hYW0DfnJ7Ijh+qcpNKSrA2QtqFhS37nav4j2mDw=="
-        length="25392961"
+        url="https://github.com/debut-sh/releases/releases/download/v1.27.0/Debut-1.27.0.dmg"
+        sparkle:edSignature="yShuPF74VzxRw8Q/ITxQ0pdqfVkjU2vXcb2u9zVfCfpyS2Kqse4yiXZrQvVn3ZPq5uHofmdCbDhAQWT9NaQ/AA=="
+        length="26192478"
         type="application/octet-stream"/>
     </item>
   </channel>
