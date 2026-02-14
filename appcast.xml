@@ -6,18 +6,24 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.27.0</title>
+      <title>Version 1.28.0</title>
       <description><![CDATA[
-Release 1.27.0
+<h3>New</h3>
+  - Show a warning popup when a recording session's config fails to load, so settings are no longer silently lost
+
+<h3>Improved</h3>
+  - Redesigned dashboard with rounded corners and Netflix-style card layout
+  - Redesigned editor with restructured layout, native controls, and flattened UI
+  - Strengthened release build signing with library validation and additional verification steps
       ]]></description>
-      <pubDate>Fri, 13 Feb 2026 11:57:17 +0000</pubDate>
-      <sparkle:version>75</sparkle:version>
-      <sparkle:shortVersionString>1.27.0</sparkle:shortVersionString>
+      <pubDate>Sat, 14 Feb 2026 11:44:10 +0000</pubDate>
+      <sparkle:version>76</sparkle:version>
+      <sparkle:shortVersionString>1.28.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.27.0/Debut-1.27.0.dmg"
-        sparkle:edSignature="TMcROM7+Fi1lXERghTbHB4tugE0Y+YWWgzga6PgMHoXDLephwv9ljKKG+cxe3TKI1uacVXBO0IDO+nxtVhiFDw=="
-        length="25725536"
+        url="https://github.com/debut-sh/releases/releases/download/v1.28.0/Debut-1.28.0.dmg"
+        sparkle:edSignature="g6xUPJxl0BrqPPr3y4ciXXlQ/iPGAasz/QnLdNhq1p6InlWG1UokZyTL2St56EQXBHSdU/QDiGlNthBM5erBBg=="
+        length="25709200"
         type="application/octet-stream"/>
     </item>
   </channel>
