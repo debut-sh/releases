@@ -8,16 +8,16 @@
     <item>
       <title>Version 1.29.1</title>
       <description><![CDATA[
-Test changes and improved migration of old sessions
+Release 1.29.1
       ]]></description>
-      <pubDate>Sun, 15 Feb 2026 22:31:07 +0000</pubDate>
-      <sparkle:version>355</sparkle:version>
+      <pubDate>Sun, 15 Feb 2026 22:41:53 +0000</pubDate>
+      <sparkle:version>79</sparkle:version>
       <sparkle:shortVersionString>1.29.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/debut-sh/releases/releases/download/v1.29.1/Debut-1.29.1.dmg"
-        sparkle:edSignature="30Hsl7ZF0K5F7KFaG17hKoJ3YUKETqLhanByz4RHUryVaQS7Xyhf2jUvSkubSSlrP1pTlfUDAuK0OU/LFe5yBw=="
-        length="26231798"
+        sparkle:edSignature="jY0ajROiTSudWz9eF6bglFZWuMNq7uakapL+KnkJEFdouaCJpWVDZNSoaefova+fA12rwbYIFalno3YYTC1vCQ=="
+        length="25780097"
         type="application/octet-stream"/>
     </item>
   </channel>
