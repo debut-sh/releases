@@ -6,7 +6,7 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.30.1</title>
+      <title>Version 1.30.2</title>
       <description><![CDATA[
 <h3>New</h3>
 <ul>
@@ -45,14 +45,14 @@
 </ul>
       ]]></description>
       <sparkle:fullReleaseNotesLink>https://debut.sh/changelog</sparkle:fullReleaseNotesLink>
-      <pubDate>Mon, 02 Mar 2026 12:37:46 +0000</pubDate>
-      <sparkle:version>359</sparkle:version>
-      <sparkle:shortVersionString>1.30.1</sparkle:shortVersionString>
+      <pubDate>Thu, 05 Mar 2026 10:57:05 +0000</pubDate>
+      <sparkle:version>361</sparkle:version>
+      <sparkle:shortVersionString>1.30.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.30.1/Debut-1.30.1.dmg"
-        sparkle:edSignature="/3yIZuj3FxkESLO1QcSMuc7QbnsxtLzwyR3DnLfZV73IzOGz/WincD2IMaUGnfL3Q9rF5nUtsPNrUJ0t3qHoDQ=="
-        length="25904775"
+        url="https://github.com/debut-sh/releases/releases/download/v1.30.2/Debut-1.30.2.dmg"
+        sparkle:edSignature="lvO+LGmmCxCTd809faMSeTq5L8mXM3f/iv5vD39LpQzSX+5/q6JZ0us7KF/IJRxz88yCtLTeO2sg0joyPURfAA=="
+        length="25909790"
         type="application/octet-stream"/>
     </item>
   </channel>
