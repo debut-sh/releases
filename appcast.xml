@@ -6,7 +6,7 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.30.2</title>
+      <title>Version 1.30.3</title>
       <description><![CDATA[
 <h3>New</h3>
 <ul>
@@ -41,18 +41,19 @@
 </ul>
    webcam segments) and cleans up orphaned media assets
 <ul>
-<li>Editor view no longer shows black screen during normal recording</li>
+<li>Editor view no longer shows black screen during normal recording</li>
+<li>Issue exporting videos with webcams rendered</li>
 </ul>
       ]]></description>
       <sparkle:fullReleaseNotesLink>https://debut.sh/changelog</sparkle:fullReleaseNotesLink>
-      <pubDate>Thu, 05 Mar 2026 10:57:05 +0000</pubDate>
-      <sparkle:version>361</sparkle:version>
-      <sparkle:shortVersionString>1.30.2</sparkle:shortVersionString>
+      <pubDate>Thu, 05 Mar 2026 17:23:20 +0000</pubDate>
+      <sparkle:version>365</sparkle:version>
+      <sparkle:shortVersionString>1.30.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.30.2/Debut-1.30.2.dmg"
-        sparkle:edSignature="lvO+LGmmCxCTd809faMSeTq5L8mXM3f/iv5vD39LpQzSX+5/q6JZ0us7KF/IJRxz88yCtLTeO2sg0joyPURfAA=="
-        length="25909790"
+        url="https://github.com/debut-sh/releases/releases/download/v1.30.3/Debut-1.30.3.dmg"
+        sparkle:edSignature="wRWM9hut2/ep25HswQ4OWIVtoAh1roqWnk5O5Sjnk9KgCTAcKzrdRII/qzERJcNfpJqHNH9IA8lxLiF8O7FMBA=="
+        length="25917512"
         type="application/octet-stream"/>
     </item>
   </channel>
