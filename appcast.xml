@@ -6,54 +6,37 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.30.3</title>
+      <title>Version 1.31.0</title>
       <description><![CDATA[
 <h3>New</h3>
 <ul>
-<li>Webcam layout switching in the editor — switch between 5 modes: Screen Only, Webcam Only,       </li>
+<li>Screenshot annotation tools (draw, overlay, toolbar)</li>
+<li>Menu bar</li>
 </ul>
-  Picture-in-Picture, Side by Side, and Speaker Focus (DEBUT-175)
-<ul>
-<li>Create new blank projects from the dashboard — open an empty editor and add videos, photos, or  </li>
-</ul>
-  start recording (DEBUT-165)
-<ul>
-<li>Add clips from the timeline — "+" button after the last clip and double-click empty timeline</li>
-</ul>
-  space to add clips
 
 <h3>Improved</h3>
 <ul>
-<li>Suggest trimming when the last click is in the menu bar area for full-screen recordings</li>
+<li>Sentry error logging with dedicated helpers</li>
+<li>Add track modal improvements</li>
+<li>Dashboard and menu bar UI cleanup</li>
+<li>Expanded test coverage (clip operations, export geometry, SRT/VTT parsers, Sentry helpers)</li>
 </ul>
-  (DEBUT-85)
-<ul>
-<li>Left/right arrow keys for frame-by-frame navigation when a track is selected (DEBUT-103)</li>
-<li>Link to full changelog on the website in Sparkle appcast (DEBUT-87)</li>
-<li>Side-by-side layout supports draggable divider and drag-to-swap sides</li>
-<li>Layout transitions animate smoothly with configurable borders</li>
-</ul>
+
 
 <h3>Fixed</h3>
 <ul>
-<li>Export hang caused by CIImage extent issues, webcam mask alignment, and Z-ordering</li>
-<li>Clip deletion now properly removes all associated data (zoom segments, clicks, cursor movements,</li>
-</ul>
-   webcam segments) and cleans up orphaned media assets
-<ul>
-<li>Editor view no longer shows black screen during normal recording</li>
-<li>Issue exporting videos with webcams rendered</li>
+<li>App hangs caused by AVPlayer polling and device discovery running on the main thread</li>
 </ul>
       ]]></description>
       <sparkle:fullReleaseNotesLink>https://debut.sh/changelog</sparkle:fullReleaseNotesLink>
-      <pubDate>Thu, 05 Mar 2026 17:23:20 +0000</pubDate>
-      <sparkle:version>365</sparkle:version>
-      <sparkle:shortVersionString>1.30.3</sparkle:shortVersionString>
+      <pubDate>Mon, 09 Mar 2026 19:42:28 +0000</pubDate>
+      <sparkle:version>374</sparkle:version>
+      <sparkle:shortVersionString>1.31.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.30.3/Debut-1.30.3.dmg"
-        sparkle:edSignature="wRWM9hut2/ep25HswQ4OWIVtoAh1roqWnk5O5Sjnk9KgCTAcKzrdRII/qzERJcNfpJqHNH9IA8lxLiF8O7FMBA=="
-        length="25917512"
+        url="https://github.com/debut-sh/releases/releases/download/v1.31.0/Debut-1.31.0.dmg"
+        sparkle:edSignature="95G1XsvTmlfGwJ0Sm4sV2rPaLg7qnlyOGyQqnvjp+6CtqOqEYQq8RsvZxB5lfZyNAmHF0ePK28J+CCpageW1AA=="
+        length="26151996"
         type="application/octet-stream"/>
     </item>
   </channel>
