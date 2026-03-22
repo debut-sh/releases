@@ -6,37 +6,40 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.31.0</title>
+      <title>Version 1.32.0</title>
       <description><![CDATA[
 <h3>New</h3>
 <ul>
-<li>Screenshot annotation tools (draw, overlay, toolbar)</li>
-<li>Menu bar</li>
+<li>Screenshot annotation tools — draw arrows, shapes, and text overlays directly on screenshots with a dedicated annotation toolbar and compositing engine</li>
+<li>Screenshot inspector redesign — unified layers-based UI with shared design system for consistency with the video editor</li>
+<li>Menu bar view — new dedicated menu bar popover with recording status, quick actions, and keyboard shortcuts</li>
 </ul>
 
 <h3>Improved</h3>
 <ul>
-<li>Sentry error logging with dedicated helpers</li>
-<li>Add track modal improvements</li>
-<li>Dashboard and menu bar UI cleanup</li>
-<li>Expanded test coverage (clip operations, export geometry, SRT/VTT parsers, Sentry helpers)</li>
+<li>Record More now preserves webcam and microphone tracks — additional clips properly carry over webcam video and microphone audio, with automatic audio concatenation across clips</li>
+<li>Timeline playhead rendering performance — playhead updates at 60fps via a dedicated <code>PlayheadClock</code> observable, while the rest of the timeline throttles to ~10fps, eliminating expensive full-timeline re-renders during playback</li>
+<li>Dashboard and capture selector UI cleanup</li>
+<li>Add Track modal redesigned</li>
+<li>Improved Sentry breadcrumb logging across recording and editing flows</li>
 </ul>
-
 
 <h3>Fixed</h3>
 <ul>
-<li>App hangs caused by AVPlayer polling and device discovery running on the main thread</li>
+<li>App hangs caused by AVPlayer <code>currentTime()</code> polling blocking the main thread — replaced with <code>addPeriodicTimeObserver</code> (DEBUT-APP-2E)</li>
+<li>App hangs from synchronous XPC calls during camera/microphone device discovery — moved <code>AVCaptureDevice.DiscoverySession</code> to a background thread (DEBUT-APP-22)</li>
+<li>Recording service work moved off the main thread to prevent UI stalls</li>
 </ul>
       ]]></description>
       <sparkle:fullReleaseNotesLink>https://debut.sh/changelog</sparkle:fullReleaseNotesLink>
-      <pubDate>Mon, 09 Mar 2026 19:42:28 +0000</pubDate>
-      <sparkle:version>374</sparkle:version>
-      <sparkle:shortVersionString>1.31.0</sparkle:shortVersionString>
+      <pubDate>Sun, 22 Mar 2026 13:29:29 +0000</pubDate>
+      <sparkle:version>375</sparkle:version>
+      <sparkle:shortVersionString>1.32.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.31.0/Debut-1.31.0.dmg"
-        sparkle:edSignature="95G1XsvTmlfGwJ0Sm4sV2rPaLg7qnlyOGyQqnvjp+6CtqOqEYQq8RsvZxB5lfZyNAmHF0ePK28J+CCpageW1AA=="
-        length="26151996"
+        url="https://github.com/debut-sh/releases/releases/download/v1.32.0/Debut-1.32.0.dmg"
+        sparkle:edSignature="vGabHXTn8gjNUVTjOOlXmjDcLyGT1jgY4SQc8t48SKkvBgzsQjyUYcQQhD3WkeXU/8MQ/+BqiF+4or8ZpDTfBQ=="
+        length="26163438"
         type="application/octet-stream"/>
     </item>
   </channel>
