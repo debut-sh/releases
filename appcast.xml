@@ -6,7 +6,7 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.32.0</title>
+      <title>Version 1.32.1</title>
       <description><![CDATA[
 <h3>New</h3>
 <ul>
@@ -28,18 +28,19 @@
 <ul>
 <li>App hangs caused by AVPlayer <code>currentTime()</code> polling blocking the main thread — replaced with <code>addPeriodicTimeObserver</code> (DEBUT-APP-2E)</li>
 <li>App hangs from synchronous XPC calls during camera/microphone device discovery — moved <code>AVCaptureDevice.DiscoverySession</code> to a background thread (DEBUT-APP-22)</li>
-<li>Recording service work moved off the main thread to prevent UI stalls</li>
+<li>Recording service work moved off the main thread to prevent UI stalls</li>
+<li>Issue with preview frame rate</li>
 </ul>
       ]]></description>
       <sparkle:fullReleaseNotesLink>https://debut.sh/changelog</sparkle:fullReleaseNotesLink>
-      <pubDate>Sun, 22 Mar 2026 13:29:29 +0000</pubDate>
-      <sparkle:version>375</sparkle:version>
-      <sparkle:shortVersionString>1.32.0</sparkle:shortVersionString>
+      <pubDate>Fri, 27 Mar 2026 00:39:58 +0000</pubDate>
+      <sparkle:version>377</sparkle:version>
+      <sparkle:shortVersionString>1.32.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.32.0/Debut-1.32.0.dmg"
-        sparkle:edSignature="vGabHXTn8gjNUVTjOOlXmjDcLyGT1jgY4SQc8t48SKkvBgzsQjyUYcQQhD3WkeXU/8MQ/+BqiF+4or8ZpDTfBQ=="
-        length="26163438"
+        url="https://github.com/debut-sh/releases/releases/download/v1.32.1/Debut-1.32.1.dmg"
+        sparkle:edSignature="ZJgTWaTS507SOFfrJkORhX2aJhysgYngsjF532zsqr0qB0LaWdAlbPIce9FIlJJp9zKwL/ab+hnd6UHJkij5Dw=="
+        length="26167682"
         type="application/octet-stream"/>
     </item>
   </channel>
