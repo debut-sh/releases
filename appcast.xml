@@ -6,29 +6,52 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 1.33.0</title>
+      <title>Version 2.0.0</title>
       <description><![CDATA[
-<h3>New</h3>
+<strong>New</strong>
 <ul>
-<li>Redesigned dashboard</li>
-<li>Redesigned editor UI</li>
+<li>Auto-zoom on typing — automatically zooms toward the text caret as you type, tracked via the Accessibility API</li>
+<li>Named cursor smoothing tiers — None / Smooth / Medium / Rapid, with anticipation + follow-through and magnetic click landing</li>
+<li>Watermarked free export — unlicensed users can now export with an anti-crop moving watermark</li>
+<li>Native appearance modes — light / dark / auto theme support</li>
+<li>Custom aspect ratios for export</li>
+<li>Database-backed library — content-addressed media storage with automatic migration from the old format</li>
+<li>Edited-state thumbnails on the dashboard, with live refresh</li>
+<li>Smart trim suggestion — uses cursor trajectory to suggest where to trim</li>
+<li>Setapp distribution — available through the Setapp marketplace</li>
 </ul>
 
-<h3>Improved</h3>
+<strong>Improved</strong>
 <ul>
-<li>Internal performance improvements</li>
-<li>Restructuring in preparation for app overhaul</li>
+<li>Cursor motion — demo-grade defaults (click pulse, hide-when-still, output-aware sizing) and smoother trackpad reposition handling</li>
+<li>New export engine — rebuilt on AVAssetWriter as the foundation for faster exports (currently behind a kill switch while it's validated)</li>
+<li>Default export quality changed from High Quality to Original</li>
+<li>Onboarding — rebuilt as a state machine; permissions collapsed to a single status screen</li>
+<li>Secrets storage — license, auth, and API keys now stored securely in the macOS Keychain</li>
+<li>Recorder reliability — disk-space preflight check and clearer capture-failure messages before recording</li>
+<li>Auto-follow playhead during timeline playback</li>
+</ul>
+
+<strong>Fixed</strong>
+<ul>
+<li>Blur/pixelate not rendering until the slider was moved</li>
+<li>Timeline scroll jumping during playback</li>
+<li>Display thumbnail capture hanging the main thread</li>
+<li>Blank lead-in frames at the start of fresh recordings</li>
+<li>Several dead/non-functional inspector and dashboard controls</li>
+<li>Dashboard not reopening when the editor window closes</li>
+<li>Timeline timecode display</li>
 </ul>
       ]]></description>
       <sparkle:fullReleaseNotesLink>https://debut.sh/changelog</sparkle:fullReleaseNotesLink>
-      <pubDate>Sun, 24 May 2026 21:47:19 +0000</pubDate>
-      <sparkle:version>417</sparkle:version>
-      <sparkle:shortVersionString>1.33.0</sparkle:shortVersionString>
+      <pubDate>Fri, 12 Jun 2026 13:13:30 +0000</pubDate>
+      <sparkle:version>461</sparkle:version>
+      <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v1.33.0/Debut-1.33.0.dmg"
-        sparkle:edSignature="diBf7hem16+nVS8oY0iRKqRYvFT1z8thmkg23P0hlEZPeBkeWgEtigLyWesglpf1ZVsD1p3RoEPmEYUeUDGLAg=="
-        length="28061036"
+        url="https://github.com/debut-sh/releases/releases/download/v2.0.0/Debut-2.0.0.dmg"
+        sparkle:edSignature="+gpZjzrSbfMw3mirS+0xp60GzaYSt3Pq7MYcQyNHiDO0rFJ5e3sDRi4XEPJM6AMM/qBF7Nmj0xw4DPkTV+7MDA=="
+        length="28474189"
         type="application/octet-stream"/>
     </item>
   </channel>
