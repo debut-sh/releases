@@ -6,52 +6,38 @@
     <description>Most recent updates to Debut</description>
     <language>en</language>
     <item>
-      <title>Version 2.0.0</title>
+      <title>Version 2.1.1</title>
       <description><![CDATA[
-<strong>New</strong>
+<h3>New</h3>
 <ul>
-<li>Auto-zoom on typing — automatically zooms toward the text caret as you type, tracked via the Accessibility API</li>
-<li>Named cursor smoothing tiers — None / Smooth / Medium / Rapid, with anticipation + follow-through and magnetic click landing</li>
-<li>Watermarked free export — unlicensed users can now export with an anti-crop moving watermark</li>
-<li>Native appearance modes — light / dark / auto theme support</li>
-<li>Custom aspect ratios for export</li>
-<li>Database-backed library — content-addressed media storage with automatic migration from the old format</li>
-<li>Edited-state thumbnails on the dashboard, with live refresh</li>
-<li>Smart trim suggestion — uses cursor trajectory to suggest where to trim</li>
-<li>Setapp distribution — available through the Setapp marketplace</li>
+<li><strong>Edit photos in Debut</strong> — open the screenshot editor directly from the dashboard ("Edit Image" in the dropdown and Quick Start), import any image file at its native resolution, or start from a drag-and-drop / click-to-pick drop zone with no capture required.</li>
+<li><strong>Drag-and-drop import on the dashboard</strong> — drop a video or photo anywhere on the dashboard to import it; videos go straight into the editor, and dropped photos open a chooser to send them to the Photo Editor or Video Editor.</li>
+<li><strong>Output aspect-ratio control for screenshots</strong> — pick 16:9, 4:3, 1:1, 9:16, or 21:9 for screenshot exports right in the inspector's Shape section.</li>
 </ul>
 
-<strong>Improved</strong>
+<h3>Improved</h3>
 <ul>
-<li>Cursor motion — demo-grade defaults (click pulse, hide-when-still, output-aware sizing) and smoother trackpad reposition handling</li>
-<li>New export engine — rebuilt on AVAssetWriter as the foundation for faster exports (currently behind a kill switch while it's validated)</li>
-<li>Default export quality changed from High Quality to Original</li>
-<li>Onboarding — rebuilt as a state machine; permissions collapsed to a single status screen</li>
-<li>Secrets storage — license, auth, and API keys now stored securely in the macOS Keychain</li>
-<li>Recorder reliability — disk-space preflight check and clearer capture-failure messages before recording</li>
-<li>Auto-follow playhead during timeline playback</li>
+<li><strong>Redesigned export dialog</strong> — the multi-step sidebar is now a single editable page (Format → Quality → Frame Rate), with the legacy H.264 codec tucked behind an Advanced disclosure.</li>
+<li><strong>Accurate export size estimates</strong> — replaced the flat duration-based guess with a real bitrate model that accounts for resolution, frame rate, and codec.</li>
+<li><strong>Correct resolution labels</strong> — quality cards and the dialog header now show the true output dimensions derived from your canvas instead of hardcoded "4K"/"1080p" labels.</li>
+<li><strong>Faster, smoother imports</strong> — file copies now run off the main thread, so importing a video no longer freezes the dashboard, and imported videos open straight in the editor.</li>
 </ul>
 
-<strong>Fixed</strong>
+<h3>Fixed</h3>
 <ul>
-<li>Blur/pixelate not rendering until the slider was moved</li>
-<li>Timeline scroll jumping during playback</li>
-<li>Display thumbnail capture hanging the main thread</li>
-<li>Blank lead-in frames at the start of fresh recordings</li>
-<li>Several dead/non-functional inspector and dashboard controls</li>
-<li>Dashboard not reopening when the editor window closes</li>
-<li>Timeline timecode display</li>
+<li>Hid the ProRes export option, which silently fell back to H.264 (tracked in DEBUT-324).</li>
+<li>Removed misleading "1080p / 720p / 480p" text from export quality descriptions.</li>
 </ul>
       ]]></description>
       <sparkle:fullReleaseNotesLink>https://debut.sh/changelog</sparkle:fullReleaseNotesLink>
-      <pubDate>Fri, 12 Jun 2026 13:13:30 +0000</pubDate>
-      <sparkle:version>461</sparkle:version>
-      <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+      <pubDate>Sat, 20 Jun 2026 02:02:53 +0000</pubDate>
+      <sparkle:version>465</sparkle:version>
+      <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/debut-sh/releases/releases/download/v2.0.0/Debut-2.0.0.dmg"
-        sparkle:edSignature="+gpZjzrSbfMw3mirS+0xp60GzaYSt3Pq7MYcQyNHiDO0rFJ5e3sDRi4XEPJM6AMM/qBF7Nmj0xw4DPkTV+7MDA=="
-        length="28474189"
+        url="https://github.com/debut-sh/releases/releases/download/v2.1.1/Debut-2.1.1.dmg"
+        sparkle:edSignature="B5f04goqhyRDQg4dRrouhTcgGv9Xt3ak0cjXg+0djdCyU0ZRUASufH7K2qYP2SLAHwJHkszvc4kD21LxkhX0Bg=="
+        length="28842006"
         type="application/octet-stream"/>
     </item>
   </channel>
